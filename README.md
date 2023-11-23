@@ -14,7 +14,8 @@ Fico extremamente feliz por ter desempenhado um papel significativo nesse evento
 <br/> 
 Essa experiência, sem dúvida, deixou uma marca positiva em minha trajetória profissional e pessoal, reforçando a crença de que a tecnologia pode ser uma aliada poderosa na realização de eventos que enriquecem a comunidade educacional.
 <br/>
-
+<br/>
+...........................................................................................................................................................................................................
 <div>
 <strong>1. Login: </strong> <br/>
 Ao iniciar, faça o login para acessar todas as funcionalidades do aplicativo. 
