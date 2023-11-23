@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Classificação dos Projetos</title>
+    <!-- Inclua a biblioteca Chart.js -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+
+<canvas id="myChart" width="400" height="400"></canvas>
+
+<script>
+// Faça uma requisição AJAX para a sua rota /ver_classificacao
+fetch('/ver_classificacao')
+    .then(response => response.json())
+    .then(data => {
+        // Recupere os dados da resposta
+        const projetosNomes = data.projetos_nomes;
+        const totalScores = data.total_scores;
+
+        // Crie o gráfico de barras usando Chart.js
+        const ctx = document.getElementById('myChart').getContext('2d');
+        const myChart = new Chart(ctx, {
+            type: 'bar',
+            data: {
+                labels: projetosNomes,
+                datasets: [{
+                    label: 'Pontuação Total',
+                    data: totalScores,
+                    backgroundColor: 'rgba(75, 192, 192, 0.2)',
+                    borderColor: 'rgba(75, 192, 192, 1)',
+                    borderWidth: 1
+                }]
+            },
+            options: {
+                scales: {
+                    y: {
+                        beginAtZero: true
+                    }
+                }
+            }
+        });
+    })
+    .catch(error => console.error('Erro ao obter dados:', error));
+</script>
+
+</body>
+</html>
