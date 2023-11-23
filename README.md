@@ -13,9 +13,7 @@ Ao observar de perto o trabalho dos jurados, pude perceber a importância de uma
 Fico extremamente feliz por ter desempenhado um papel significativo nesse evento incrível, contribuindo para a sua organização e sucesso. A oportunidade de criar o aplicativo de votação para a Feira Maiker não apenas destacou a importância da tecnologia nesse contexto, mas também reforçou meu compromisso em utilizar minhas habilidades para apoiar iniciativas que promovam a educação e a participação ativa dos estudantes.
 <br/> 
 Essa experiência, sem dúvida, deixou uma marca positiva em minha trajetória profissional e pessoal, reforçando a crença de que a tecnologia pode ser uma aliada poderosa na realização de eventos que enriquecem a comunidade educacional.
-<br/>
-<br/>
-...........................................................................................................................................................................................................
+
 <div>
 <strong>1. Login: </strong> <br/>
 Ao iniciar, faça o login para acessar todas as funcionalidades do aplicativo. 
